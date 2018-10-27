@@ -47,7 +47,7 @@ inquirer.prompt([
         
         switch (answers.searchType) {
             case 'my-tweets':
-                var params = {screen_name: 'Snowbir77137002',
+                var params = {screen_name: 'bobbybob',
                             count:20};
                 client.get('statuses/user_timeline', params, function(error, tweets, response) {
                     if (!error) {
